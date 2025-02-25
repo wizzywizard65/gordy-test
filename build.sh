@@ -11,6 +11,9 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 dnf install -y tmux 
+dnf install -y gnome
+dnf install -y flatpak
+dnf install -y distrobox
 
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
